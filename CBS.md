@@ -135,7 +135,7 @@
 - [2025/08/29](https://cluesbysam.com/archive/ba12f5ae7d5a)
 - [2025/08/30](https://cluesbysam.com/archive/2bed9e01fc31)
 - [2025/08/31](https://cluesbysam.com/archive/534926b17285)
-- [2025/09/01](https://cluesbysam.com/s/archive/139edc882169)
+- [2025/09/01](https://web.archive.org/web/20250901163925/https://cluesbysam.com/)
 - [2025/09/02](https://cluesbysam.com/s/archive/fda869978937)
 - [2025/09/03](https://cluesbysam.com/s/archive/dbe571338e7a)
 - [2025/09/04](https://cluesbysam.com/s/archive/803e34deff3b)
@@ -347,6 +347,17 @@
 - [2026-01-26 #1 - Easy](https://cluesbysam.com/archive/6170a457eed5)
 - [2026-01-26 #2 - Hard](https://cluesbysam.com/archive/42ef48c3ba76)
 - [2026-01-26 #3 - Evil](https://cluesbysam.com/archive/b97de6242547)
+- [2026-01-26 - Easy](https://cluesbysam.com/s/archive/b82635f9ef76)
+- [2026-01-27 - Medium](https://cluesbysam.com/s/archive/79d5e4bbb266)
+- [2026-01-28 - Tricky](https://cluesbysam.com/s/archive/0b6bcc8bfe36)
+- [2026-01-29 - Tricky](https://cluesbysam.com/s/archive/2f01e7949523)
+- [2026-01-30 - Tricky](https://cluesbysam.com/s/archive/80f3961cbe7a)
+- [2026-01-31 - Hard](https://cluesbysam.com/s/archive/6be87b967633)
+- [2026-02-01 - Hard](https://cluesbysam.com/s/archive/0d03089b06ed)
+- [2026-02-01 #1 - Medium](https://cluesbysam.com/archive/d9b7f6418e96)
+- [2026-02-01 #2 - Tricky](https://cluesbysam.com/archive/dd0a4616a658)
+- [2026-02-01 #3 - Hard](https://cluesbysam.com/archive/e7373cf55c90)
+- [2026-02-01 #4 - Evil](https://cluesbysam.com/archive/917949351aac)
 
 # Specials
 - [Leonid's Challenge #1](https://cluesbysam.com/archive/d76c676a8585)
@@ -376,3 +387,26 @@
 - [Archive c0d1c3b16323](https://cluesbysam.com/archive/c0d1c3b16323)
 - [Archive d0a404cb4b44](https://cluesbysam.com/archive/d0a404cb4b44)
 - [Archive dc4d7b598bb5](https://cluesbysam.com/archive/dc4d7b598bb5)
+
+# Puzzle Pack
+- [Puzzle Pack 2 #50](https://cluesbysam.com/s/help/064882c21eee)
+
+
+## Find/Replace strings for weekly email
+- Daily puzzles
+```
+Find:
+    ^[A-Za-z]* ([0-9\-]*) \(([a-zA-Z]*)\):.*
+
+Replace:
+    - [$1 - $2](url)
+```
+
+- Bonus puzzles
+```
+Find:
+    ^(#[0-9]) ([A-Za-z]*) - (.*)$
+
+Replace:    
+    - [date $1 - $2]($3)
+```
